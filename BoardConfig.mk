@@ -51,6 +51,10 @@ TARGET_PREBUILT_KERNEL := $(LOCAL_PATH)/recovery/kernel
 TARGET_CRYPTFS_HW_PATH := vendor/qcom/opensource/commonsys/cryptfs_hw
 TARGET_HW_DISK_ENCRYPTION := true
 
+# Kernel
+TARGET_KERNEL_CONFIG := tiare_recovery_defconfig
+TARGET_KERNEL_SOURCE := kernel/xiaomi/msm8937
+
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 50331648
 BOARD_CACHEIMAGE_PARTITION_SIZE := 157286400
